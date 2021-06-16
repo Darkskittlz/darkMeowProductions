@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test.Implementation</title>
+   
+</head>
+
+<body>
+
+
+<css-doodle class="my-doodle">
+  :doodle {
+    @grid: 8 / 80rem 45rem;
+    @shape: square;
+    background: var(\2500 - \257f);
+    max-width: 100%;
+  }
+
+  @keyframes turn {
+   0% {
+    transform: rotate(7deg);
+   }
+   100% {
+    transform: rotate(360deg);
+   }
+  }
+
+  @keyframes glow {
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @random {
+    animation: glow .9s ease-out infinite;
+  }
+
+  :hover {
+    animation: turn .9s ease-out infinite;
+  }
+
+  :after {
+    background: linear-gradient(
+      <angle>, /* ... */
+    );
+  }
+  
+  :after {
+    background: conic-gradient(
+      from <angle>, /* ... */
+    );
+}
+
+  @shape: @pick('triangle');
+  background: @pick('blue', 'midnight', 'green');
+  margin: .5rem;
+  opacity: calc(@rand(1, 10) / 10);
+</css-doodle>
+
+<script>
+    const myDoodle = document.querySelector('.my-doodle');
+    
+    myDoodle.addEventListener('click', () => {
+      myDoodle.update();
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.2.3/css-doodle.min.js"></script>
+
+</body>
+</html>
