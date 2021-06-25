@@ -101,17 +101,8 @@ button.dewaltButton a {
     font-size: 16px;
 }
 
-.footer {
-    position: relative;
-    margin-top: -10px; /* negative value of footer height */
-    height: 10px;
-    clear:both;
-    padding-top:20px;
-} 
-
-.footer video {
-    height: 18em;
-    margin: 0px auto;
-    margin-left: -15px;
-    display: block;
+img#footer {
+  height: 150px;
+  display: block;
 }
+
