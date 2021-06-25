@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="assets/css/websites.css">  
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  
+
+<body>
+
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="show()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>   
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="websites.html">Websites</a></li>
+    </ul>
+  </div>
+
+  <div class="projects">
+    <h2>Websites</h2>
+    <ol>
+        <li><a href="http://matiassanes.com/">www.MatiasSanes.com</a></li>
+        <li><a href="https://darkskittles.com/">www.Darkskittles.com</a></li>
+    </ol>
+</div>
+
+<ul class="background">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+<footer class="fixed-bottom">
+  <div>
+    <img id="footer" src="img/catLogo.png">
+  </div>
+</footer>
+
+    <script>
+        function show() {
+          document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script> 
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Testing";
+    }
+    </script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+
+</body>
+</html>
