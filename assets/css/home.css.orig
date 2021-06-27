@@ -239,7 +239,11 @@ div.row {
 
 }
 
+<<<<<<< HEAD
 img.logo {
+=======
+video.logo {
+>>>>>>> 0a933260b47b08fe40c72fb59667a6179d86a05b
   display: block;
   height: 220px;
   margin: 0px auto;

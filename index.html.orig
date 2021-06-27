@@ -43,7 +43,11 @@
 </ul>
 
         <div class="container-fluid">
+<<<<<<< HEAD
           <img class="logo" src="img/darkMeowLogo3.png"></img>
+=======
+          <video class="logo" src="img/darkMeowLogo2.mp4" autoplay="" loop=""></video>
+>>>>>>> 0a933260b47b08fe40c72fb59667a6179d86a05b
         </div>
 
         <div id="darkMeow" class="container-m">
