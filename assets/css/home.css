@@ -315,15 +315,8 @@ img#footer {
     margin-bottom: 10px;
   }
 
-div.container-fluid {
-  display: block;
-  width: 100%;
-  margin-left: -82px;
-  }
-
-#darkMeow.container-m {
-  margin-left: -30px;
-  width: 450px;
+#darkMeow.container h1 {
+  font-size: 20px;
   }
 
   #darkMeow.container-m h1 {
@@ -331,38 +324,11 @@ div.container-fluid {
     margin-left: -40px;
   }
 
-  #darkMeow.container-m div.row {
-    height: auto;
-  }
-
-  #darkMeow.container-m div.col-9 {
-    margin-left: 0;
-    margin: 15px;
-  }
-
-  #darkMeow.container-m {
-    width: 350px;
-  }
-
-  #darkMeow.container-m h3 {
-    width: 325px;
-  }
-
 
 
   .footer {
-    position: relative;
-    margin-top: -10px; /* negative value of footer height */
+    position: fixed;
     height: 10px;
     clear:both;
-    padding-top:20px;
-
   } 
-
-  .footer video {
-    height: 18em;
-    margin: 0px auto;
-    margin-left: -15px;
-    display: block;
-  }
 }
