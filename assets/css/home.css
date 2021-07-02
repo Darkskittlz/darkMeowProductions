@@ -192,7 +192,6 @@ body {
 #banner {
   backdrop-filter: blur(10px);
   color: rgba(0, 0, 0, 0.705);
-
 }
 
 #banner h1 {
@@ -202,11 +201,13 @@ body {
 
 .col {
   border-radius: 10px;
-  height: 250px;
-  width: 120px;
+  width:160px;
+  background: rgba(255, 255, 255, 0.315);
   backdrop-filter: blur(8px);
-  margin: 5px;
   color: rgba(19, 4, 4, 0.986);
+  margin: 5px auto;
+  margin-right: 20px;
+
 }
 
 .col h2 {
@@ -234,14 +235,14 @@ div.row {
 }
 
 #header img {
-  width: 70vh;
+  width: 50vh;
   display: block;
   margin: 0px auto;
 }
 
 img.logo {
   display: block;
-  height: 220px;
+  /* height: 220px; */
   margin: 0px auto;
   margin-bottom: 5px;
   position: relative;
@@ -252,7 +253,7 @@ img.logo {
   text-align: center;
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  margin-bottom: 5px;
+  
 }
 
 #darkMeow div.col {
@@ -273,15 +274,8 @@ img.logo {
 #darkMeow h3 {
   font-weight: 100px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
 }
-
-#darkMeow .col-9 {
-  height: auto;
-  margin: 0px auto;
-  margin-bottom: 5px;
-}
-
 
 img#footer {
   height: 150px;
@@ -289,31 +283,21 @@ img#footer {
   margin-left: 19px;
 }
 
-
 @media only screen and (max-width: 503px) {
-  #header img {
-    width: 80vh;
+  img.logo {
+    width: 30vh;
     display: block;
     margin: 0px auto;
   }
 
-  .sakura {
-    height: 270px;
-  }
-  div.container-fluid .sakura {
-    margin-bottom: 10px;
+  #darkMeow.container h3 {
+  font-size: 17px;
   }
 
-#darkMeow.container h1 {
-  font-size: 20px;
+  div#darkMeow.container {
+    width: 370px;
+    margin-left: -45px;
   }
-
-  #darkMeow.container-m h1 {
-    text-align: center;
-    margin-left: -40px;
-  }
-
-
 
   .footer {
     position: fixed;

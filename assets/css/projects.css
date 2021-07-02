@@ -89,11 +89,11 @@ div.container-fluid h2 {
 }
 
 button.dewaltButton {
-    background-color: rgb(244, 181, 250);
+    background-color: rgb(103, 252, 103);
     display: block;
     margin: 0px auto;
     border-radius: 5px;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 button.dewaltButton a {

@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.snakeContainer html body{
+    height: 100%;
+    margin: 0 auto;
+  }
+    
+  .snakeContainer body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .snakeContainer {
+    display: block;
+    margin: 110px auto;
+    width: 540px;
+  }
+    
+  .snakeContainer canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 610px;
+    width: 540px;
+    display: inline-grid;
+    background-color: black;
+  }
