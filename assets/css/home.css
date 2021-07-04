@@ -283,10 +283,9 @@ img#footer {
   margin-left: 19px;
 }
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 412px) {
   img.logo {
     width: 20vh;
-    display: block;
     margin: 0px auto;
   }
 
@@ -295,7 +294,7 @@ img#footer {
   }
 
   div#darkMeow.container {
-    width: 310px;
+    width: 120px;
   }
 
   .footer {
