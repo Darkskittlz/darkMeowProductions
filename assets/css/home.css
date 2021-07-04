@@ -199,20 +199,6 @@ body {
 }
 
 
-.col {
-  border-radius: 10px;
-  width:160px;
-  background: rgba(255, 255, 255, 0.315);
-  backdrop-filter: blur(8px);
-  color: rgba(19, 4, 4, 0.986);
-  margin: 5px auto;
-  margin-right: 20px;
-
-}
-
-.col h2 {
-  text-align: end;
-}
 
 
 #wrap {
@@ -256,15 +242,17 @@ img.logo {
   
 }
 
-#darkMeow div.col {
-  width: 100%;
-  height: auto;
+#darkMeow div.col-sm-8 {
   background-color: rgba(255, 255, 255, 0.185);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  padding-bottom: 10px;
+  display: inline-block;
+}
+
+div#container2.col-sm-8 {
+  margin-bottom: 50px;
 }
 
 #darkMeow h1 {
@@ -277,47 +265,34 @@ img.logo {
   font-size: 2rem;
 }
 
+
+.col-sm-2 {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.315);
+  backdrop-filter: blur(8px);
+  color: rgba(19, 4, 4, 0.986);
+  margin: 5px auto;
+  text-align: center;
+}
+
 img#footer {
   height: 150px;
   display: block;
   margin-left: 19px;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 710px) {
   img.logo {
-    width: 20vh;
+    width: 33vh;
     margin: 0px auto;
   }
 
-  #darkMeow.container h3 {
-  font-size: 17px;
+  #darkMeow.container-fluid h3 {
+  font-size: 21px;
   }
 
-  div#darkMeow.container {
-    width: 120px;
-  }
 
-  .footer {
-    position: fixed;
-    height: 10px;
-    clear:both;
-  } 
-}
-
-@media only screen and (max-width: 1400px) {
-  img.logo {
-    width: 50vh;
-    display: block;
-    margin: 0px auto;
-  }
-
-  #darkMeow.container h3 {
-    font-size: 21px;
-  }
-  
-  div#darkMeow.container {
-    width: 570px;
-
-  }
-
+ img#footer {
+  margin-left: -31px;
+ }
 }
