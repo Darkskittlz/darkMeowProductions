@@ -104,3 +104,23 @@ html {
   .weedGameContainer .game .fish1:hover {
    max-height: 100px;
   }  
+
+
+    
+  @media only screen and (max-width: 411px) {
+    .weedGameContainer {
+      width: 360px;
+      height: 430px;
+      margin-left: 10px;
+      display: block;
+    }
+
+    .weedGameContainer h1{
+      font-size: 25px;
+    }
+
+    .weedGameContainer .game .forest {
+      height: 220px;
+      width: 330px;
+    }
+  }

@@ -283,9 +283,9 @@ img#footer {
   margin-left: 19px;
 }
 
-@media only screen and (max-width: 503px) {
+@media only screen and (max-width: 411px) {
   img.logo {
-    width: 30vh;
+    width: 20vh;
     display: block;
     margin: 0px auto;
   }
@@ -295,8 +295,7 @@ img#footer {
   }
 
   div#darkMeow.container {
-    width: 370px;
-    margin-left: -45px;
+    width: 310px;
   }
 
   .footer {
@@ -304,4 +303,22 @@ img#footer {
     height: 10px;
     clear:both;
   } 
+}
+
+@media only screen and (max-width: 1400px) {
+  img.logo {
+    width: 50vh;
+    display: block;
+    margin: 0px auto;
+  }
+
+  #darkMeow.container h3 {
+    font-size: 21px;
+  }
+  
+  div#darkMeow.container {
+    width: 570px;
+
+  }
+
 }
