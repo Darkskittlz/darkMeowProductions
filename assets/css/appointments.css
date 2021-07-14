@@ -268,12 +268,11 @@ div#container2.col-sm-8 {
 
 .col-sm-2 {
   border-radius: 10px;
-  background: rgba(5, 180, 166, 0.233);
+  background: rgba(255, 255, 255, 0.315);
   backdrop-filter: blur(8px);
   color: rgba(19, 4, 4, 0.986);
   margin: 5px auto;
   text-align: center;
-  width: 200px;
 }
 
 img#footer {
