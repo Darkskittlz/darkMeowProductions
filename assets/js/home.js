@@ -2,7 +2,7 @@ src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js';
 
 
 const updateCount = (counter, v, timeout, inc) => {
-	counter.innerText = numberWithCommas(v) + " Followers";
+	counter.innerText = numberWithCommas(v) + " Kittens";
 	setTimeout(updateCount, timeout, counter, v + inc, timeout, inc);
 };
 
