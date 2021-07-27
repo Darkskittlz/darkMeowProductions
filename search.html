@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
-    <link rel="stylesheet" href="assets/css/home.css">  
+    <link rel="stylesheet" href="assets/css/search.css">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DMP</title>
+    <title>SEARCH</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -48,25 +48,17 @@
     <li></li>
   </ul>
 
-  <div class="container">
-    <img class="logo" src="img/darkMeowLogo3.png"></img>
-  </div>
 
-  <div id="darkMeow" class="container-fluid">
-    <div class="row">
-      <div class="col-sm-8">
-        <h3>My name's Jeremy, and I'm a Full Stack Software Developer. You can hire me to code your own custom website, 
-          fully bootstrapped for a mobile-friendly experience. 
-        </h3>
-      </div>
-      <div id="container2" class="col-sm-8">
-        <h3>
-          DarkMeow Productions LLC is a multi-media production company capable of producing websites, applications, and graphic art. 
-        </h3>
-      </div>
-    </div>        
-  </div>
+  <h2>Darkskittlz Search</h2>
+  <form action = '/search.html' method="get" role="search">
+    <input autocomplete="off" name="q" placeholder="Search with Google" title="Enter Search Here" type="text"/>
+  </form>
 
+
+  <div id="darkSearch" class="container-fluid">
+    <h2>Search Results</h2>
+    <div class="gcse-searchresults-only"></div>
+  </div>
 
 
 
@@ -83,7 +75,7 @@
      
 
 
-
+  <script async src="https://cse.google.com/cse.js?cx=319af9dff62063fde"></script>
 
 
   <script src="assets/js/home.js"></script>
