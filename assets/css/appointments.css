@@ -216,13 +216,16 @@ div#banner.container {
 text-align: center;
 }
 
-
-
-#header img {
-width: 50vh;
-display: block;
-margin: 0px auto;
+img.col-md-6.float-md-start.mb-3.ms-md-3 {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: #8a8a8b6c;
+  padding: 10px;
+  margin: 0px auto;
+  width: 550px;
+  display: block;
 }
+
 
 img.logo {
 display: block;
@@ -278,4 +281,16 @@ img.logo {
 img#footer {
 margin-left: -31px;
 }
+
+
+img.col-md-6.float-md-start.mb-3.ms-md-3 {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: #8a8a8b6c;
+  padding: 10px;
+  margin: 0px auto;
+  width: 220px;
+  display: block;
+}
+
 }
