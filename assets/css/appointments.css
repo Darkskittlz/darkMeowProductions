@@ -254,6 +254,8 @@ div#darkmeow.col-sm-8 h2 {
 
 div#darkmeow.col-sm-8 h3 {
   text-align: center;
+  font-family: 'notMyType';
+  font-size: 30px;
 }
 
 
@@ -262,7 +264,6 @@ div#darkmeow.col-sm-8 a {
   margin: 0px auto;
   width: 130px;
 }
-
 
 
 
